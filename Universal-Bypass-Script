@@ -17,6 +17,15 @@
 // @homepageURL    https://codeberg.org/Amm0ni4/bypass-all-shortlinks-debloated
 // @supportURL     https://codeberg.org/Amm0ni4/bypass-all-shortlinks-debloated/issues
 // @match *://*.earnify.pro/*
+// @match        https://mobile.codex.lol/*
+// @connect      linkvertise.com
+// @connect      api.codex.lol
+// @connect      *
+// @run-at       document-end
+// @grant        GM_xmlhttpRequest
+// @grant        GM_notification
+// @grant        GM_openInTab
+// @antifeatures ads
 // @match *://*.aprovax.com/*
 // @match *://*.lootcash.vip/*
 // @match *://*.mixrootmods.com/*
